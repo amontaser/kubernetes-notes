@@ -17,3 +17,7 @@ kubectl get nodes
 kubectl get pods -A
 kubectl describe pod <pod-name>
 kubectl logs <pod-name>
+
+
+
+sadsadas

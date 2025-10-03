@@ -1,20 +1,3 @@
-title: Kubernetes Notes 2
+theme: jekyll-theme-cayman
+title: Kubernetes Notes
 description: My personal Kubernetes learning journey
-remote_theme: htuerker/jekyll-theme-notion
-
-# Optional: configure navigation (like Notion sidebar)
-nav:
-  - name: Home
-    link: /
-  - name: Basics
-    link: /basics
-  - name: Networking
-    link: /networking
-  - name: Storage
-    link: /storage
-  - name: Security
-    link: /security
-  - name: Troubleshooting
-    link: /troubleshooting
-  - name: Labs
-    link: /labs/minikube

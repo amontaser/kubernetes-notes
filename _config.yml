@@ -1,3 +1,166 @@
-theme: jekyll-theme-cayman
-title: Kubernetes Notes
-description: My personal Kubernetes learning journey
+# Welcome to Jekyll!
+# Configuration file for site settings, appearance, plugins, and more.
+# Note: Changes require server restart to take effect.
+
+# Theme Settings
+# Choose theme or remote_theme based on setup.
+# theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default" # Options: "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale: "en-US"
+rtl: false
+title: "Ahmed Montaser"
+title_separator: "-"
+subtitle: "Welcome to my personal website"
+name: "Ahmed Montaser"
+description: "Sr. System Administrator and Tech Enthusiast"
+url: "https://amontaser.github.io" # Update to your site's URL
+baseurl: "/"
+repository: "amontaser/website-repo" # GitHub repo link
+logo: "/assets/images/logo.png" # Add your logo path if available
+masthead_title: "Ahmed Montaser's Blog"
+breadcrumbs: true
+words_per_minute: 200
+enable_copy_code_button: true
+copyright: "Ahmed Montaser"
+copyright_url: "https://amontaser.github.io"
+
+# Commenting System
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "your-disqus-shortname"
+
+# Search Settings
+search: true
+search_provider: lunr # Default to Lunr, option for Algolia or Google
+
+# Social Sharing
+twitter:
+  username: "_amontaser"
+facebook:
+  username: "amontaser"
+og_image: "/assets/images/og-image.png" # Add a default Open Graph image for sharing
+social:
+  type: "Person"
+  name: "Ahmed Montaser"
+  links:
+    - "https://twitter.com/_amontaser"
+    - "https://facebook.com/amontaser"
+    - "https://github.com/amontaser"
+    - "https://instagram.com/_amontaser"
+
+# Analytics
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "G-2Y5C7MZ5KM" # Replace with actual Google Analytics ID
+    anonymize_ip: true
+
+# Author Info
+author:
+  name: "Ahmed Montaser"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Sr. System Administrator from Cairo, Egypt"
+  location: "Cairo, Egypt"
+  email: "amontaser108@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:amontaser108@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_amontaser"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/amontaser"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/_amontaser"
+
+# Footer Links
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/_amontaser"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/amontaser"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/amontaser"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/_amontaser"
+
+# File Handling
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-*"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - node_modules
+  - /docs
+  - /test
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+pagination:
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 10
+  sort_field: 'date'
+  sort_reverse: true
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives Configuration
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults for Posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+

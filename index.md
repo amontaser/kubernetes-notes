@@ -1,11 +1,16 @@
-# Kubernetes Learning Notes
+# 🌐 Kubernetes Learning Notes
 
-Welcome to my Kubernetes learning journey 🚀
+Welcome to my Kubernetes learning journey 🚀  
 
-## Topics Covered
-- Setting up Kubernetes Cluster
-- kubectl Basics
-- Deployments, Pods, and Services
-- Networking
-- Storage
-- Security
+Here I will keep everything I learn while working with Kubernetes.
+
+## 📚 Contents
+- [Basics](basics.md)
+- [Networking](networking.md)
+- [Storage](storage.md)
+- [Security](security.md)
+- [Troubleshooting](troubleshooting.md)
+- [Labs](labs/minikube.md)
+
+---
+✍️ Updated regularly as I learn more.

@@ -1,5 +1,3 @@
-# 🌐 Kubernetes Learning Notes
-
 Welcome to my Kubernetes learning journey 🚀  
 
 Here I will keep everything I learn while working with Kubernetes.

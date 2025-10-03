@@ -1,6 +1,6 @@
-title: Kubernetes Notes
+title: Kubernetes Notes 2
 description: My personal Kubernetes learning journey
-remote_theme: notion-cli/jekyll-theme
+remote_theme: htuerker/jekyll-theme-notion
 
 # Optional: configure navigation (like Notion sidebar)
 nav:
